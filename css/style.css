@@ -1,0 +1,51 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+}
+
+div {
+	border: 1px dashed red;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+}
+
+li {
+	padding-right: 20px;
+}
+
+/* Navigation */
+.main-manu {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+}
+
+.menu-bar {
+	text-align: center;
+}
+
+/* Service */
+.service-header {
+	text-align: center;
+}
+
+.services {
+	/* display: flex; */
+	/* flex-direction: row; */
+}
+.service-logo {
+	height: 200px;
+}
+#services-list {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
