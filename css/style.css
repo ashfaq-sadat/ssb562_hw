@@ -105,6 +105,12 @@ footer {
 	margin-top: 30px;
 	vertical-align: middle;
 }
+.intro-video {
+	align-items: center;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
 footer a {
 	text-decoration: none;
 }
