@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
     <!-- Inline CSS -->
 
 </head>
@@ -30,7 +31,7 @@
     </div>
     <main class="main">
         <section class="services">
-            <h2 class="service-header">
+            <h2 class="section-header">
                 Our Services
             </h2>
             <div id="services-list">
@@ -53,26 +54,50 @@
         </section>
         <hr>
         <section class="story">
-            <h2 class="service-header">
+            <h2 class="section-header">
                 Our Story
             </h2>
-            <div id="services-list">
-                <div class="services-list">
-                    <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1434&q=80"
-                        alt="" class="service-logo">
-                    <h3 class="service-title">Email Marketing</h3>
-                </div>
-                <div class="services-list"><img
-                        src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=874&q=80"
-                        alt="" class="service-logo">
-                    <h3 class="service-title">Ad Campaign</h3>
-                </div>
-                <div class="services-list"><img
-                        src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=951&q=80"
-                        alt="" class="service-logo">
-                    <h3 class="service-title">Search Engine Optimization</h3>
-                </div>
-            </div>
+
+            <table class="timeine">
+                <caption>Timeline </caption>
+                <tr>
+                    <th>Year</th>
+                    <th>Event</th>
+                    <th>Achievement</th>
+                </tr>
+                <tr>
+                    <td>2010</td>
+                    <td>Established</td>
+                    <td>Create Employment of 200 prople</td>
+                </tr>
+                <tr>
+                    <td>2011</td>
+                    <td>Extended Capacity</td>
+                    <td>Added More Employmnent Opportunities</td>
+                </tr>
+                <tr>
+                    <td>2015</td>
+                    <td>Awarded the best company</td>
+                    <td>Created 2000 well-trained freelancers</td>
+                </tr>
+            </table>
+
+        </section>
+        <section class="contact-us">
+            <h2 class="section-header">
+                Contact Us
+            </h2>
+            <form action="submit">
+                <fieldset>
+                    <legend>Personal Informtion</legend>
+                    <label for="fname">First name</label>
+                    <input type="text" name="fname">
+                    <label for="lname">Last name</label>
+                    <input type="text" name="lname">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="">
+                </fieldset>
+            </form>
         </section>
     </main>
 </body>
@@ -80,5 +105,10 @@
     <h2><code>abbr</code> defines abbreviation or an acronym</h2>
     <p>The <abbr title="HyperText Markup Language">HTML</abbr> is a language that is used to create webpages</p>
 </article>
+
+<footer>
+    <span>All rights reseved</span>
+    <a href="mailto:#">ashfaqsadat@gmail.com</a>
+</footer>
 
 </html>
