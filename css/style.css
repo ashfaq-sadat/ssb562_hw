@@ -76,10 +76,6 @@ header a {
 	text-transform: uppercase;
 }
 
-.services {
-	/* display: flex; */
-	/* flex-direction: row; */
-}
 .service-logo {
 	height: 200px;
 }
