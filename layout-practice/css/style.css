@@ -1,0 +1,78 @@
+html {
+	box-sizing: border-box;
+	width: 1200px;
+	margin: auto;
+}
+div {
+	text-align: center;
+	font-size: 20px;
+}
+
+.header {
+	overflow: hidden;
+}
+.logo {
+	width: 20%;
+	height: 90px;
+	background-color: firebrick;
+	float: left;
+}
+
+.menu {
+	width: 80%;
+	height: 90px;
+	background-color: blueviolet;
+	float: right;
+}
+/* maintain the hierchy of the elements */
+.wrapper {
+	overflow: hidden;
+}
+.blog {
+	width: 66.67%;
+	height: 600px;
+	background-color: blue;
+	float: left;
+}
+/* place the width property before the height property */
+.contact {
+	width: 33.33%;
+	height: 600px;
+	background-color: aliceblue;
+	float: right;
+	border-left: 1px solid black;
+	box-sizing: border-box;
+}
+
+/* CSS float helps to align different elemetns side by side in a layout. To get starteed take a div as a wrapper or container. Inside the wrapper the elements will be displayed according to the content views */
+/* float property: this property floats the contetns so that they can be aligned */
+/* Box sizing: border box is used to adjust the border area with the percentages of the elements. border-box includes the border area within the alotted percentage of the div element  */
+
+/* clear fixing: Alternative to overflow: hiden 
+
+*/
+
+.item {
+	width: 33.33%;
+	height: 400px;
+	float: left;
+	/* for multiple items more than two items to float, use float left. */
+}
+.yellow {
+	background-color: yellow;
+}
+.tomato {
+	background-color: tomato;
+}
+.pink {
+	background-color: pink;
+}
+.item-image {
+	object-fit: scale-down;
+	border-radius: 50%;
+}
+
+.footer {
+	height: 100px;
+	background-color: brown;
+}
