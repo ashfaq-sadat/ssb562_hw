@@ -1,0 +1,42 @@
+/* Import fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+section {
+	background: linear-gradient(
+		90deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(9, 9, 121, 1) 35%,
+		rgba(0, 212, 255, 1) 100%
+	);
+}
+/* headings */
+h2 {
+	text-align: center;
+	color: #ffffff;
+}
+
+/* forms section */
+input,
+select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+/* input[type="radio"],
+input[type="radio"] label {
+	display: inline-block;
+} */
+fieldset {
+	margin-bottom: 40px;
+}
+legend {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	font-weight: 700;
+	color: antiquewhite;
+}
