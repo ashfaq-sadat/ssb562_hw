@@ -1,4 +1,5 @@
-# ssb556_hw
+# ssb562_hw
+
 This repository contains the homeworks for the Full Stack Web Development course from Shikhbe Sobai
 
 All of my practice work is uploaded here in the repository.
